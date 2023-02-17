@@ -7,7 +7,7 @@ random_number=randint(10,50)
 
 counter=0
 while counter <5:
-    user_number=eval(input("enter a number:"))
+    user_number=eval(input("enter a random number between 10 and 50 :"))
     counter += 1
 
     if user_number<random_number:
